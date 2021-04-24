@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tpslogger (UNOFFICIAL MOD)",
+  "version": "${version}",
+  "name": "Tpslogger",
+  "description": "logs the TPS on Cubekrowd (UNOFFICIAL MOD)",
+  "authors": [
+	"RubenNL"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tpslogger/icon.png",
+  "environment": "client",
+  "entrypoints": {
+	"client": [
+	  "tpslogger.tpslogger.client.TpsloggerClient"
+	],
+	"main": [
+	  "tpslogger.tpslogger.Tpslogger"
+	]
+  },
+  "mixins": [
+	"tpslogger.mixins.json"
+  ],
+  "depends": {
+	"fabricloader": ">=0.11.3",
+	"fabric": "*",
+	"minecraft": "1.16.5"
+  }
+}

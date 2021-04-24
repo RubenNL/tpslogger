@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tpslogger.tpslogger.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ReceiveMessageMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
